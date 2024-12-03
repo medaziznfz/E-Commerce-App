@@ -16,15 +16,8 @@ With **real-time notifications**, **secure cloud integration**, and an intuitive
 - **Database & Backend Services:** Firebase  
 - **Platform:** Android Studio
 
-- 
----
 
 ### **Part 6: Screenshots**
-```markdown
-## **Screenshots**
-
-![Tjini Taw Interface](assets/tjini-taw-screenshot.png)  
-*Caption: Main interface of Tjini Taw showing order placement flow.*
 
 
 ## **License**
@@ -34,8 +27,8 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 ## **Contact**
 
 For any inquiries or contributions, please contact:  
-**[Your Name]**  
-**Email:** your-email@example.com  
-**GitHub:** [Your GitHub Profile](https://github.com/YourUsername)  
+**Med Aziz Nefzi**  
+**Email:** medaziznefzi1@gmail.com 
+**GitHub:** [Your GitHub Profile](https://github.com/medaziznfz)  
 
 
