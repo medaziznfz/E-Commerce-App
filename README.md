@@ -19,17 +19,14 @@ With **real-time notifications**, **secure cloud integration**, and an intuitive
 ## **Screenshots**
 
 <div style="display: flex; justify-content: space-around;">
-    <img src="screenshots/Screenshot%202024-12-03%20225040.png" width="300" />
-    <img src="screenshots/Screenshot%202024-12-03%20225108.png" width="300" />
-    <img src="screenshots/Screenshot%202024-12-03%20225121.png" width="300" />
-    <img src="screenshots/Screenshot%202024-12-03%20225135.png" width="300" />
-</div>
-
-<div style="display: flex; justify-content: space-around;">
-    <img src="screenshots/Screenshot%202024-12-03%20225153.png" width="300" />
-    <img src="screenshots/Screenshot%202024-12-03%20225207.png" width="300" />
-    <img src="screenshots/Screenshot%202024-12-03%20225222.png" width="300" />
-    <img src="screenshots/Screenshot%202024-12-03%20225237.png" width="300" />
+    <img src="screenshots/Screenshot%202024-12-03%20225040.png" width="200" />
+    <img src="screenshots/Screenshot%202024-12-03%20225108.png" width="200" />
+    <img src="screenshots/Screenshot%202024-12-03%20225121.png" width="200" />
+    <img src="screenshots/Screenshot%202024-12-03%20225135.png" width="200" />
+    <img src="screenshots/Screenshot%202024-12-03%20225153.png" width="200" />
+    <img src="screenshots/Screenshot%202024-12-03%20225207.png" width="200" />
+    <img src="screenshots/Screenshot%202024-12-03%20225222.png" width="200" />
+    <img src="screenshots/Screenshot%202024-12-03%20225237.png" width="200" />
 </div>
 
 ## **License**
