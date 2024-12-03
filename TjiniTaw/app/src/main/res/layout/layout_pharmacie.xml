@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/img_pharmacie"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/backk"
+            android:scaleType="centerCrop"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/dialog_header_color"
+            android:padding="5dp">
+            <TextView
+                android:id="@+id/txt_pharmacie_name"
+                android:text="Pharmacie A"
+                android:textSize="26sp"
+                android:fontFamily="@font/aspire"
+                android:textColor="@color/holo_blue_light"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:src="@drawable/vert"
+                android:layout_gravity="right"
+                android:id="@+id/pharmacie_status"
+                android:layout_marginRight="15dp"/>
+                        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Address :  "
+                    android:fontFamily="@font/sass"
+                    android:textSize="14sp"
+                    android:textStyle="bold|italic"
+                    android:textColor="@color/dialog_text_color"/>
+
+
+            <TextView
+                android:id="@+id/txt_pharmacie_Address"
+                android:text="47 rue essaraha sidi abdallah"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="@color/dialog_text_color"/>
+                        </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Phone :  "
+                    android:textSize="14sp"
+                    android:textStyle="bold|italic"
+                    android:fontFamily="@font/sass"
+                    android:textColor="@color/dialog_text_color"/>
+                <TextView
+                    android:id="@+id/txt_pharmacie_number"
+                    android:text="93477183"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:textColor="@color/dialog_text_color"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

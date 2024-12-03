@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aziz"
+    tools:context="x7030.example.x7030.MainActivity"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/boss"
+            android:layout_marginHorizontal="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="300dp" />
+
+        <TextView
+            android:gravity="center"
+            android:text="@string/slogan"
+            android:id="@+id/txtSlogan"
+            android:textColor="@color/white"
+            android:fontFamily="@font/days"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:textSize="22sp"/>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnSignUp"
+            android:text="Sajjel"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:cornerRadius="4dp"
+            android:backgroundTint="@color/rating"
+            android:fontFamily="@font/oumayma"
+            />
+        <Button
+            android:id="@+id/btnSignIn"
+            android:text="Odkhel"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:cornerRadius="4dp"
+            android:backgroundTint="@color/dialog_header_color"
+            android:fontFamily="@font/oumayma"
+            />
+
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>

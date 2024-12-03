@@ -1,0 +1,2 @@
+rootProject.name = "Tjini Taw Panel"
+include ':app'

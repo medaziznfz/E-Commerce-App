@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "177533766694",
+    "project_id": "tjini-taw",
+    "storage_bucket": "tjini-taw.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:177533766694:android:dae50798f613cf4f122ae7",
+        "android_client_info": {
+          "package_name": "x7030.nefzi.tjinitaw"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "177533766694-rhutvif6futv9eog24dm2dn96i86e8us.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "x7030.nefzi.tjinitaw",
+            "certificate_hash": "87e95413206bf115c4a0fc5ebbfaaa136dbbf2f3"
+          }
+        },
+        {
+          "client_id": "177533766694-8na70dr0t94blsvrgob58f4bvtc4kv7v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTPABVSaswNdH7eP9gQyL7LMjPQK7vULs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "177533766694-8na70dr0t94blsvrgob58f4bvtc4kv7v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

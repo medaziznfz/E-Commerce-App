@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/poula"
+    android:padding="8dp">
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <EditText
+            android:id="@+id/edt_address"
+            android:hint="A3tina el address mte3ek"
+            android:enabled="true"
+            android:fontFamily="@font/sass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <EditText
+            android:id="@+id/edt_comment"
+            android:hint="Commentaire ken t7eb"
+            android:fontFamily="@font/sass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:text="Win njik ?"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/vibes"
+        android:textColor="@color/goodgrey"/>
+
+    <RadioGroup
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rdi_home_address"
+            android:checked="true"
+            android:text="Address e dar"
+            android:textSize="15sp"
+            android:fontFamily="@font/sass"
+            android:textColor="@color/dialog_text_color"
+            android:textStyle="italic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <RadioButton
+            android:id="@+id/rdi_other_address"
+            android:text="Address okhra"
+            android:textSize="15sp"
+            android:textColor="@color/dialog_text_color"
+            android:textStyle="italic"
+            android:fontFamily="@font/sass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <RadioButton
+            android:id="@+id/rdi_ship_this_address"
+            android:text="b este3mel e GPS"
+            android:textSize="15sp"
+            android:textColor="@color/dialog_text_color"
+            android:textStyle="italic"
+            android:fontFamily="@font/sass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+
+    </RadioGroup>
+
+    <TextView
+        android:text="Kifech t7eb tkhales"
+        android:textSize="18sp"
+        android:textColor="@color/goodgrey"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:fontFamily="@font/vibes"
+        android:layout_height="wrap_content"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioButton
+        android:id="@+id/rdi_cod"
+        android:checked="true"
+        android:text="nkhales k touseli"
+        android:textSize="15sp"
+        android:textColor="@color/dialog_text_color"
+        android:textStyle="italic"
+        android:fontFamily="@font/sass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+
+
+
+    </RadioGroup>
+
+</LinearLayout>

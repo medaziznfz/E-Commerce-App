@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aziz"
+    tools:context="x7030.example.x7030.SignUp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sajjel"
+        android:textColor="@color/rating"
+        android:textSize="80dp"
+        android:fontFamily="@font/sport"
+        android:layout_above="@id/temp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"/>
+
+
+    <LinearLayout
+        android:id="@+id/temp"
+        android:orientation="vertical"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <EditText
+            android:id="@+id/edtPhone"
+            android:hint="Noumrouk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:maxLength="8"
+            android:inputType="number" />
+        <EditText
+            android:id="@+id/edtName"
+            android:hint="Esmek Kemel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:inputType="text" />
+        <EditText
+            android:id="@+id/edtAddress"
+            android:hint="Addristek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:inputType="text" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <EditText
+                android:id="@+id/edtPassword"
+                android:hint="Motdpassek"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/white"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:inputType="textPassword" />
+
+            <ImageView
+                android:id="@+id/show_password"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/show"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <EditText
+                android:id="@+id/edt_reset_key"
+                android:hint="Reset Key"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/white"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:inputType="numberPassword"
+                android:maxLength="6"/>
+            <ImageView
+                android:id="@+id/show_reset_key"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/show"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="testa3mlou ki tansa motdpassek (6 ar9am)"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="14sp"/>
+        <Button
+            android:id="@+id/btnSignUp"
+            android:text="Sajjelni"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:backgroundTint="@color/rating"
+            android:fontFamily="@font/oumayma"
+            />
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>
+

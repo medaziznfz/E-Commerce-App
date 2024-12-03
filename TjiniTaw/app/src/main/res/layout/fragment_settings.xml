@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Baddel ay Information"
+        android:gravity="center"
+        android:textColor="@color/rating"
+        android:textSize="50sp"
+        android:background="@color/dialog_text_color"
+        android:fontFamily="sans-serif-smallcaps"/>
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="20dp">
+<androidx.cardview.widget.CardView
+    android:id="@+id/change_name_option"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    app:cardBackgroundColor="@color/dialog_header_color"
+    app:cardCornerRadius="20dp"
+    >
+
+    <TextView
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="18dp"
+        android:layout_gravity="start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Badel Esmek"
+        android:textColor="@color/dialog_text_color"
+        android:textSize="16sp"
+        android:fontFamily="@font/sass"
+        />
+    <ImageView
+        android:id="@+id/position_name"
+        android:layout_marginRight="15dp"
+        android:layout_gravity="end"
+        android:layout_marginTop="5dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/down"
+        />
+
+
+
+</androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/change_name_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/white"
+        android:visibility="gone">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Esmek : "
+                    android:textStyle="bold"
+                    android:paddingTop="20dp"
+                    android:paddingLeft="20dp"
+                    android:fontFamily="@font/sass"
+                    android:layout_marginBottom="20dp"
+                    android:textColor="@color/dialog_text_color"
+                    android:textSize="15sp"/>
+            <TextView
+                android:id="@+id/txt_user_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Med Aziz Nefzi"
+                android:fontFamily="@font/sass"
+                android:textStyle="italic"
+                android:paddingTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:textColor="@color/dialog_text_color"
+                android:textSize="15sp"/>
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/edt_user_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="El esem eli t7eb tbadlou"
+                android:fontFamily="@font/sass"
+                android:layout_marginHorizontal="8dp"
+                android:textColorHint="@color/dialog_text_color"
+                android:padding="20dp"
+                android:textColor="@color/dialog_text_color"/>
+            <Button
+                android:id="@+id/save_name"
+                android:layout_gravity="end"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="20dp"
+                android:backgroundTint="@color/attir"
+                android:textColor="@color/black"
+                android:text="Sajjel"/>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/change_address_option"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:cardBackgroundColor="@color/dialog_header_color"
+        app:cardCornerRadius="20dp"
+        >
+
+        <TextView
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="18dp"
+            android:layout_gravity="start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Baddel el address mte3ek"
+            android:textColor="@color/dialog_text_color"
+            android:textSize="16sp"
+            android:fontFamily="@font/sass"
+            />
+        <ImageView
+            android:id="@+id/position_address"
+            android:layout_marginRight="15dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="5dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/down"
+            />
+
+
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/change_address_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/white"
+        android:visibility="gone">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Addristek : "
+                    android:paddingTop="20dp"
+                    android:fontFamily="@font/sass"
+                    android:paddingLeft="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="20dp"
+                    android:textColor="@color/dialog_text_color"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:id="@+id/txt_user_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/sass"
+                    android:text="47 rue essaraha sidi abdallah Mateur"
+                    android:textStyle="italic"
+                    android:paddingTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:textColor="@color/dialog_text_color"
+                    android:textSize="15sp"/>
+            </LinearLayout>
+
+
+            <EditText
+                android:id="@+id/edt_user_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Het addristek e jdida"
+                android:fontFamily="@font/sass"
+                android:layout_marginHorizontal="8dp"
+                android:textColorHint="@color/dialog_text_color"
+                android:padding="20dp"
+                android:textColor="@color/dialog_text_color"/>
+            <Button
+                android:id="@+id/save_address"
+                android:layout_gravity="end"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="20dp"
+                android:backgroundTint="@color/attir"
+                android:textColor="@color/black"
+                android:text="Sajjel"/>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/change_password_option"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:cardBackgroundColor="@color/dialog_header_color"
+        app:cardCornerRadius="20dp"
+        >
+
+        <TextView
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="18dp"
+            android:layout_gravity="start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Baddel motdpassek"
+            android:textColor="@color/dialog_text_color"
+            android:textSize="16sp"
+            android:fontFamily="@font/sass"
+            />
+        <ImageView
+            android:id="@+id/position_password"
+            android:layout_marginRight="15dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="5dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/down"
+            />
+
+
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/change_password_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/white"
+        android:visibility="gone">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_marginRight="8dp">
+
+            <EditText
+                android:id="@+id/edt_prev_password"
+                android:layout_width="0dp"
+                android:fontFamily="@font/sass"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:layout_marginHorizontal="8dp"
+                android:hint="Motdpassek el 9dim"
+                android:textColorHint="@color/dialog_text_color"
+                android:padding="20dp"
+                android:textColor="@color/dialog_text_color"
+                android:inputType="textPassword"/>
+
+                <ImageView
+                android:id="@+id/show_prev_password"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/show"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <EditText
+                android:id="@+id/edt_new_password"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:fontFamily="@font/sass"
+                android:layout_marginHorizontal="8dp"
+                android:layout_height="wrap_content"
+                android:hint="Motdpassek e jdid"
+                android:textColorHint="@color/dialog_text_color"
+                android:padding="20dp"
+                android:textColor="@color/dialog_text_color"
+                android:inputType="textPassword"/>
+            <ImageView
+                android:id="@+id/show_new_password"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/show"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+            <Button
+                android:id="@+id/save_password"
+                android:layout_gravity="end"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="20dp"
+                android:backgroundTint="@color/attir"
+                android:textColor="@color/black"
+                android:text="Sajjel"/>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/change_reset_key_option"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:cardBackgroundColor="@color/dialog_header_color"
+        app:cardCornerRadius="20dp"
+        android:layout_marginBottom="20dp"
+        >
+
+        <TextView
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="18dp"
+            android:layout_gravity="start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Baddel e Reset-Key mte3ek"
+            android:textColor="@color/dialog_text_color"
+            android:textSize="16sp"
+            android:fontFamily="@font/sass"
+            />
+        <ImageView
+            android:id="@+id/position_reset_key"
+            android:layout_marginRight="15dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="5dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/down"
+            />
+
+
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/change_reset_key_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/white"
+        android:layout_marginBottom="50dp"
+        android:visibility="gone">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginRight="8dp"
+                android:weightSum="2">
+
+                <EditText
+                    android:id="@+id/edt_prev_reset_key"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:fontFamily="@font/sass"
+                    android:layout_marginHorizontal="8dp"
+                    android:hint="Het el Key el 9dim"
+                    android:textColorHint="@color/dialog_text_color"
+                    android:padding="20dp"
+                    android:textColor="@color/dialog_text_color"
+                    android:maxLength="6"
+                    android:inputType="numberPassword"/>
+
+                <ImageView
+                    android:id="@+id/show_prev_reset_key"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/show"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginRight="8dp"
+                android:weightSum="2">
+                <EditText
+                    android:id="@+id/edt_new_reset_key"
+                    android:layout_width="0dp"
+                    android:layout_marginHorizontal="8dp"
+                    android:layout_weight="2"
+                    android:fontFamily="@font/sass"
+                    android:layout_height="wrap_content"
+                    android:hint="Het el Key e jdid"
+                    android:textColorHint="@color/dialog_text_color"
+                    android:padding="20dp"
+                    android:textColor="@color/dialog_text_color"
+                    android:maxLength="6"
+                    android:inputType="numberPassword"/>
+                <ImageView
+                    android:id="@+id/show_new_reset_key"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/show"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+            <Button
+                android:id="@+id/save_reset_key"
+                android:layout_gravity="end"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="20dp"
+                android:backgroundTint="@color/attir"
+                android:textColor="@color/black"
+                android:text="Sajjel"/>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</LinearLayout>
+</ScrollView>
+
+
+
+
+
+</LinearLayout>

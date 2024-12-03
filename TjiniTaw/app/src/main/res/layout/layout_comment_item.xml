@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:weightSum="10"
+    android:padding="1dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:src="@drawable/comment"
+        android:layout_weight="1.68"
+        android:layout_height="70dp"
+        android:layout_marginLeft="5dp"
+        android:layout_width="0dp"
+        android:layout_gravity="center_horizontal|center_vertical"/>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="8"
+        android:layout_marginLeft="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_comment_name"
+            android:layout_width="wrap_content"
+            android:fontFamily="@font/sass"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:text="Name"/>
+
+        <TextView
+            android:id="@+id/txt_comment_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:textColor="@color/black"
+            android:textSize="14sp"/>
+        <RatingBar
+            android:id="@+id/rating_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:progressTint="@color/rating"
+            style="?attr/ratingBarStyleSmall"/>
+        <TextView
+            android:id="@+id/txt_comment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textStyle="italic"
+            android:text="Comment"
+            android:textColor="@color/black"/>
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

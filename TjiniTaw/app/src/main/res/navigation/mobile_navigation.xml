@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="x7030.nefzi.tjinitaw.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_restaurant"
+        android:name="x7030.nefzi.tjinitaw.ui.Restaurant.RestaurantFragment"
+        android:label="@string/restaurant"
+        tools:layout="@layout/fragment_restaurant" />
+    <fragment
+        android:id="@+id/nav_menu"
+        android:name="x7030.nefzi.tjinitaw.ui.menu.MenuFragment"
+        android:label="@string/menu"
+        tools:layout="@layout/fragment_menu" />
+    <fragment
+        android:id="@+id/nav_foodlist"
+        android:name="x7030.nefzi.tjinitaw.ui.foodlist.FoodListFragment"
+        android:label="@string/foodlist"
+        tools:layout="@layout/fragment_food_list" />
+
+    <fragment
+        android:id="@+id/nav_food_detail"
+        android:name="x7030.nefzi.tjinitaw.ui.fooddetail.FoodDetailFragment"
+        android:label="@string/food_detail"
+        tools:layout="@layout/fragment_food_detail" />
+    <fragment
+        android:id="@+id/nav_produit_detail"
+        android:name="x7030.nefzi.tjinitaw.ui.produitdetail.FoodDetailFragment"
+        android:label="Produit Detail"
+        tools:layout="@layout/fragment_produit_detail" />
+    <fragment
+        android:id="@+id/nav_pharmacie"
+        android:name="x7030.nefzi.tjinitaw.ui.pharmacie.PharmacieFragment"
+        android:label="@string/Pharmacie"
+        tools:layout="@layout/pharmacie_fragment"/>
+
+    <fragment
+        android:id="@+id/nav_others"
+        android:name="x7030.nefzi.tjinitaw.ui.Others.OthersFragment"
+        android:label="Service Ekher"
+        tools:layout="@layout/fragment_others" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="x7030.nefzi.tjinitaw.ui.settings.SettingsFragment"
+        android:label="Parametre"
+        tools:layout="@layout/fragment_settings" />
+
+    <fragment
+        android:id="@+id/nav_magasin"
+        android:name="x7030.nefzi.tjinitaw.ui.menumagasin.MenuFragment"
+        android:label="Magasin"
+        tools:layout="@layout/fragment_menu_magasin" />
+
+    <fragment
+        android:id="@+id/nav_contact"
+        android:name="x7030.nefzi.tjinitaw.ui.contact.ContactFragment"
+        android:label="Contactina"
+        tools:layout="@layout/fragment_contact" />
+
+
+    <fragment
+        android:id="@+id/nav_orders"
+        android:name="x7030.nefzi.tjinitaw.ui.view_orders.ViewOrdersFragment"
+        android:label="Historique"
+        tools:layout="@layout/fragment_view_order" />
+    <fragment
+        android:id="@+id/nav_report"
+        android:name="x7030.nefzi.tjinitaw.ui.report.ReportFragment"
+        android:label="@string/report"
+        tools:layout="@layout/fragment_report" />
+    <fragment
+        android:id="@+id/nav_cart"
+        android:name="x7030.nefzi.tjinitaw.ui.cart.CartFragment"
+        android:label="@string/cart"
+        tools:layout="@layout/fragment_cart" />
+</navigation>

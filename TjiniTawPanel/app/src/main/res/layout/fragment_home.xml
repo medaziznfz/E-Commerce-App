@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Version : 1.0.3"
+        android:gravity="center"
+        android:textColor="@color/darker_gray"
+        android:id="@+id/version"
+        android:textSize="15sp"
+        android:fontFamily="sans-serif-smallcaps"
+        />
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Frais totale : "
+            android:textColor="@color/orange"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_user_fees"
+            android:text="0 Tnd"
+            android:textColor="@color/darker_gray"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textSize="20sp"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Qadeh men utilisateur : "
+            android:textColor="@color/holo_blue_light"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_user_number"
+            android:text="0 Users !"
+            android:textColor="@color/holo_red_black"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:gravity="start"
+        android:id="@+id/img_welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/welcome" />
+
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Qadeh totale l taches : "
+            android:textColor="@color/holo_blue_light"
+            android:textStyle="bold"
+
+            android:fontFamily="sans-serif-smallcaps"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_task_number"
+            android:text="0 Taches !"
+            android:textColor="@color/holo_red_black"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

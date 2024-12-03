@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShippingActivity">
+
+
+    <androidx.cardview.widget.CardView
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:id="@+id/detail_ship"
+        android:layout_marginHorizontal="16dp"
+        app:cardElevation="8dp"
+        app:cardCornerRadius="4dp"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:weightSum="0"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    app:cardCornerRadius="10dp">
+                    <ImageView
+                        android:id="@+id/img_food_image"
+                        android:layout_width="100dp"
+                        android:scaleType="fitXY"
+                        android:layout_height="100dp"
+                        android:layout_gravity="center"/>
+                </androidx.cardview.widget.CardView>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="8dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/txt_date"
+                        android:text="Date"
+                        android:textSize="16sp"
+                        android:textStyle="italic"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/txt_order_number"
+                        android:text="5616542684924651246546241"
+                        android:textColor="@color/holo_blue_light"
+                        android:textSize="16sp"
+                        android:textStyle="italic"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/txt_zyeda"
+                        android:text="Address"
+                        android:textSize="16sp"
+                        android:textStyle="italic"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/txt_name"
+                        android:text="Client Name"
+                        android:textSize="16sp"
+                        android:textStyle="italic"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/txt_address"
+                        android:text="Payment"
+                        android:textSize="16sp"
+                        android:textStyle="italic"/>
+
+
+
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:id="@+id/btn_call"
+                    android:layout_marginLeft="8dp"
+                    android:text="Kalmou"
+                    app:iconTint="@color/white"
+                    android:textColor="@color/white"
+                    app:icon="@drawable/ic_baseline_call_24"
+                    android:layout_marginRight="8dp"
+                    style="@style/Widget.MaterialComponents.Button.TextButton"
+                    app:backgroundTint="@color/manga"
+                    android:textSize="12sp"/>
+                <com.google.android.material.button.MaterialButton
+                    app:iconTint="@color/white"
+                    app:backgroundTint="@color/prim"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:id="@+id/btn_done"
+                    android:layout_marginLeft="8dp"
+                    android:text="Saye"
+                    android:textColor="@color/white"
+                    app:icon="@drawable/ic_baseline_done_all_24"
+                    android:layout_marginRight="8dp"
+                    style="@style/Widget.MaterialComponents.Button.Icon"
+                    android:textSize="12sp"/>
+
+
+
+
+
+
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </androidx.cardview.widget.CardView>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="KHABI 3Liya"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        android:textColor="@color/black"
+        android:layout_below="@+id/detail_ship"
+        android:layout_marginHorizontal="16dp"
+        android:backgroundTint="@color/rating"/>
+
+
+
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/map"
+        tools:context=".ShippingActivity"
+        android:name="com.google.android.gms.maps.SupportMapFragment"/>
+
+
+
+
+
+
+
+</RelativeLayout>

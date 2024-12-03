@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Tjini Taw</string>
+    <string name="slogan">Mar7be bikom, m3a service Tjini Taw kallemni njik 3jeja</string>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_home">Acceuil</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="restaurant">Restaurant</string>
+    <string name="logout">Okhrej</string>
+    <string name="menu">Menu</string>
+    <string name="category">Category</string>
+    <string name="action_search">charchi 3ala produit</string>
+    <string name="clear_cart">Clear</string>
+    <string name="foodlist">Menu</string>
+    <string name="food_detail">mekla</string>
+    <string name="size">Taille</string>
+    <string name="add_on">Supplement</string>
+    <string name="cart">Panier</string>
+    <string name="Settings">Parametre</string>
+    <string name="best_deals">Plat de jour</string>
+    <string name="popular_categorie">Offre de jour</string>
+    <string name="Pharmacie">Pharmacie</string>
+    <string name="title_activity_find_things">Map</string>
+    <string name="othersPub">Notre Services</string>
+    <string name="report">Reclamation</string>
+</resources>
