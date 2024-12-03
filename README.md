@@ -6,7 +6,6 @@
 ## **Overview**
 
 **Tjini Taw** is a robust Android-based e-commerce application, built using **Java** and **Firebase**, aimed at revolutionizing restaurant and shopping services. It offers a seamless platform for users to place orders for food, groceries, and other daily needs. Orders are efficiently routed to an admin panel, where they are processed and assigned to delivery agents. 
-
 With **real-time notifications**, **secure cloud integration**, and an intuitive user interface, Tjini Taw ensures a smooth and efficient order management process, enhancing both user experience and operational efficiency.
 
 
@@ -17,9 +16,9 @@ With **real-time notifications**, **secure cloud integration**, and an intuitive
 - **Platform:** Android Studio
 
 
-### **Part 6: Screenshots**
+### **Screenshots**
 
-
+screen
 ## **License**
 
 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for more details.  
