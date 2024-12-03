@@ -18,14 +18,14 @@ With **real-time notifications**, **secure cloud integration**, and an intuitive
 
 ## **Screenshots**
 
-![Screenshot 1](screenshots/Screenshot%202024-12-03%20225040.png)
-![Screenshot 2](screenshots/Screenshot%202024-12-03%20225108.png)
-![Screenshot 3](screenshots/Screenshot%202024-12-03%20225121.png)
-![Screenshot 4](screenshots/Screenshot%202024-12-03%20225135.png)
-![Screenshot 5](screenshots/Screenshot%202024-12-03%20225153.png)
-![Screenshot 6](screenshots/Screenshot%202024-12-03%20225207.png)
-![Screenshot 7](screenshots/Screenshot%202024-12-03%20225222.png)
-![Screenshot 8](screenshots/Screenshot%202024-12-03%20225237.png)
+<img src="screenshots/Screenshot%202024-12-03%20225040.png" width="300" />
+<img src="screenshots/Screenshot%202024-12-03%20225108.png" width="300" />
+<img src="screenshots/Screenshot%202024-12-03%20225121.png" width="300" />
+<img src="screenshots/Screenshot%202024-12-03%20225135.png" width="300" />
+<img src="screenshots/Screenshot%202024-12-03%20225153.png" width="300" />
+<img src="screenshots/Screenshot%202024-12-03%20225207.png" width="300" />
+<img src="screenshots/Screenshot%202024-12-03%20225222.png" width="300" />
+<img src="screenshots/Screenshot%202024-12-03%20225237.png" width="300" />
 
 ## **License**
 
